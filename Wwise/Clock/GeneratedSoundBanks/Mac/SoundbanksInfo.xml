@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="118">
+	<RootPaths>
+		<ProjectRoot>/Users/Clovis/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/y:/Documents/UNITY/Training/Clock/Clock/Wwise/Clock/</ProjectRoot>
+		<SourceFilesRoot>/Users/Clovis/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/y:/Documents/UNITY/Training/Clock/Clock/Wwise/Clock/.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/Clovis/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/y:/Documents/UNITY/Training/Clock/Clock/Wwise/Clock/GeneratedSoundBanks/Mac/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/Clovis/Library/Application Support/Wwise2016/Bottles/wwise/dosdevices/y:/Documents/UNITY/Training/Clock/Clock/Wwise/Clock/GeneratedSoundBanks/Mac/</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1262472299" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Clockbank</ObjectPath>
+			<ShortName>Clockbank</ShortName>
+			<Path>Clockbank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3413660498" Name="ClockWork" ObjectPath="\Events\Default Work Unit\ClockWork"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="7785923" Language="SFX">
+					<ShortName>Exports\Clock 3.wav</ShortName>
+					<Path>SFX/Exports/Clock 3_9E69E797.wem</Path>
+				</File>
+				<File Id="307826592" Language="SFX">
+					<ShortName>Exports\Clock 1.wav</ShortName>
+					<Path>SFX/Exports/Clock 1_9E69E797.wem</Path>
+				</File>
+				<File Id="501051486" Language="SFX">
+					<ShortName>Exports\Clock 7.wav</ShortName>
+					<Path>SFX/Exports/Clock 7_9E69E797.wem</Path>
+				</File>
+				<File Id="574136429" Language="SFX">
+					<ShortName>Exports\Clock 2.wav</ShortName>
+					<Path>SFX/Exports/Clock 2_9E69E797.wem</Path>
+				</File>
+				<File Id="620321449" Language="SFX">
+					<ShortName>Exports\Clock 5.wav</ShortName>
+					<Path>SFX/Exports/Clock 5_9E69E797.wem</Path>
+				</File>
+				<File Id="635451604" Language="SFX">
+					<ShortName>Exports\Clock 4.wav</ShortName>
+					<Path>SFX/Exports/Clock 4_9E69E797.wem</Path>
+				</File>
+				<File Id="648817242" Language="SFX">
+					<ShortName>Exports\Clock 9.wav</ShortName>
+					<Path>SFX/Exports/Clock 9_9E69E797.wem</Path>
+				</File>
+				<File Id="691536584" Language="SFX">
+					<ShortName>Exports\Clock 6.wav</ShortName>
+					<Path>SFX/Exports/Clock 6_9E69E797.wem</Path>
+				</File>
+				<File Id="726769538" Language="SFX">
+					<ShortName>Exports\Clock 8.wav</ShortName>
+					<Path>SFX/Exports/Clock 8_9E69E797.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

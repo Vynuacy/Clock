@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationCache Version="1" SchemaVersion="72">
+	<ValidationCacheItem File="Y:\Documents\UNITY\Training\Clock\Clock\Wwise\Clock\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="501831936" DateHigh="30555034"/>
+	<ValidationCacheItem File="Y:\Documents\UNITY\Training\Clock\Clock\Wwise\Clock\Attenuations\Default Work Unit.wwu" DateLow="501831936" DateHigh="30555034"/>
+	<ValidationCacheItem File="Y:\Documents\UNITY\Training\Clock\Clock\Wwise\Clock\Audio Devices\Default Work Unit.wwu" DateLow="501831936" DateHigh="30555034"/>
+	<ValidationCacheItem File="Y:\Documents\UNITY\Training\Clock\Clock\Wwise\Clock\Clock.wproj" DateLow="501831936" DateHigh="30555034"/>
+	<ValidationCacheItem File="Y:\Documents\UNITY\Training\Clock\Clock\Wwise\Clock\Control Surface Sessions\Default Work Unit.wwu" DateLow="501831936" DateHigh="30555034"/>
+	<ValidationCacheItem File="Y:\Documents\UNITY\Training\Clock\Clock\Wwise\Clock\Conversion Settings\Default Work Unit.wwu" DateLow="501831936" DateHigh="30555034"/>
+	<ValidationCacheItem File="Y:\Documents\UNITY\Training\Clock\Clock\Wwise\Clock\Conversion Settings\Factory Conversion Settings.wwu" DateLow="3966516224" DateHigh="30548756"/>
+	<ValidationCacheItem File="Y:\Documents\UNITY\Training\Clock\Clock\Wwise\Clock\Dynamic Dialogue\Default Work Unit.wwu" DateLow="501831936" DateHigh="30555034"/>
+	<ValidationCacheItem File="Y:\Documents\UNITY\Training\Clock\Clock\Wwise\Clock\Effects\Default Work Unit.wwu" DateLow="501831936" DateHigh="30555034"/>
+	<ValidationCacheItem File="Y:\Documents\UNITY\Training\Clock\Clock\Wwise\Clock\Effects\Factory Effects.wwu" DateLow="3966516224" DateHigh="30548756"/>
+	<ValidationCacheItem File="Y:\Documents\UNITY\Training\Clock\Clock\Wwise\Clock\Events\Default Work Unit.wwu" DateLow="501831936" DateHigh="30555034"/>
+	<ValidationCacheItem File="Y:\Documents\UNITY\Training\Clock\Clock\Wwise\Clock\Game Parameters\Default Work Unit.wwu" DateLow="501831936" DateHigh="30555034"/>
+	<ValidationCacheItem File="Y:\Documents\UNITY\Training\Clock\Clock\Wwise\Clock\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="501831936" DateHigh="30555034"/>
+	<ValidationCacheItem File="Y:\Documents\UNITY\Training\Clock\Clock\Wwise\Clock\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="501831936" DateHigh="30555034"/>
+	<ValidationCacheItem File="Y:\Documents\UNITY\Training\Clock\Clock\Wwise\Clock\Mixing Sessions\Default Work Unit.wwu" DateLow="501831936" DateHigh="30555034"/>
+	<ValidationCacheItem File="Y:\Documents\UNITY\Training\Clock\Clock\Wwise\Clock\Modulators\Default Work Unit.wwu" DateLow="501831936" DateHigh="30555034"/>
+	<ValidationCacheItem File="Y:\Documents\UNITY\Training\Clock\Clock\Wwise\Clock\Presets\Default Work Unit.wwu" DateLow="501831936" DateHigh="30555034"/>
+	<ValidationCacheItem File="Y:\Documents\UNITY\Training\Clock\Clock\Wwise\Clock\Queries\Default Work Unit.wwu" DateLow="501831936" DateHigh="30555034"/>
+	<ValidationCacheItem File="Y:\Documents\UNITY\Training\Clock\Clock\Wwise\Clock\Queries\Factory Queries.wwu" DateLow="3966516224" DateHigh="30548756"/>
+	<ValidationCacheItem File="Y:\Documents\UNITY\Training\Clock\Clock\Wwise\Clock\SoundBanks\Default Work Unit.wwu" DateLow="501831936" DateHigh="30555034"/>
+	<ValidationCacheItem File="Y:\Documents\UNITY\Training\Clock\Clock\Wwise\Clock\Soundcaster Sessions\Default Work Unit.wwu" DateLow="501831936" DateHigh="30555034"/>
+	<ValidationCacheItem File="Y:\Documents\UNITY\Training\Clock\Clock\Wwise\Clock\States\Default Work Unit.wwu" DateLow="501831936" DateHigh="30555034"/>
+	<ValidationCacheItem File="Y:\Documents\UNITY\Training\Clock\Clock\Wwise\Clock\Switches\Default Work Unit.wwu" DateLow="501831936" DateHigh="30555034"/>
+	<ValidationCacheItem File="Y:\Documents\UNITY\Training\Clock\Clock\Wwise\Clock\Triggers\Default Work Unit.wwu" DateLow="501831936" DateHigh="30555034"/>
+</ValidationCache>

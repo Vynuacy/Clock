@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8035B16C-A543-4C28-86D6-00EA1701D814}" SchemaVersion="72">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{8035B16C-A543-4C28-86D6-00EA1701D814}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="ClockWork" ID="{33CE14CC-85C7-4F45-AEC7-8CB88A98E70C}">
+					<ChildrenList>
+						<Action Name="Play" ID="{7509DE25-CC79-4081-9C9C-B12D73939927}" ShortID="1035997696" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{EA26BF17-279D-466D-8EA3-96BB2B9984D6}" Global="false">
+									<ObjectRef Name="ClocClic" ID="{C7060FC4-9060-41D0-90FB-8F20FBD63385}" WorkUnitID="{BCCADB1A-7707-4DC0-9DEA-E36214870EF9}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

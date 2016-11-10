@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{305AFE34-3ABC-4053-80EF-E6D8344DDC7F}" SchemaVersion="72">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{305AFE34-3ABC-4053-80EF-E6D8344DDC7F}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Clockbank" ID="{8F11397F-5979-4667-A062-16025D7E6B46}">
+					<ObjectInclusionList>
+						<ObjectRef Name="ClockWork" ID="{33CE14CC-85C7-4F45-AEC7-8CB88A98E70C}" WorkUnitID="{8035B16C-A543-4C28-86D6-00EA1701D814}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BCCADB1A-7707-4DC0-9DEA-E36214870EF9}" SchemaVersion="72">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{BCCADB1A-7707-4DC0-9DEA-E36214870EF9}" PersistMode="Standalone">
+			<ChildrenList>
+				<RandomSequenceContainer Name="Exports" ID="{C62221AF-D5F5-4F66-9694-A37E95F8F057}" ShortID="265120257">
+					<PropertyList>
+						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{53A8E98E-FB62-4719-8BDE-48D6EB4E50FF}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Min" Type="Real64" Value="-50"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{39BE95C7-C813-4FCA-8A19-8F993430AC65}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{16DB408D-5A96-46FE-BBAD-2760C2F27BBD}"/>
+						</Reference>
+					</ReferenceList>
+				</RandomSequenceContainer>
+				<SwitchContainer Name="Cliccloc" ID="{5A0EDC14-8AE7-4CC5-9413-A519AE68A296}" ShortID="1030797086">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{39BE95C7-C813-4FCA-8A19-8F993430AC65}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{16DB408D-5A96-46FE-BBAD-2760C2F27BBD}"/>
+						</Reference>
+					</ReferenceList>
+					<GroupingInfo>
+						<GroupRef Name="" ID="{00000000-0000-0000-0000-000000000000}"/>
+						<DefaultSwitchRef Name="" ID="{00000000-0000-0000-0000-000000000000}"/>
+					</GroupingInfo>
+				</SwitchContainer>
+				<RandomSequenceContainer Name="ClocClic" ID="{C7060FC4-9060-41D0-90FB-8F20FBD63385}" ShortID="245592656">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{F04B456F-7B0D-417A-B023-715A5C689E7F}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="40"/>
+											<Property Name="Min" Type="Real64" Value="-45"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{39BE95C7-C813-4FCA-8A19-8F993430AC65}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{16DB408D-5A96-46FE-BBAD-2760C2F27BBD}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Clock 1" ID="{FAF6A785-4C92-4CCE-A1D8-E3C0F29B76AC}" ShortID="38779974" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{39BE95C7-C813-4FCA-8A19-8F993430AC65}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{16DB408D-5A96-46FE-BBAD-2760C2F27BBD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Clock 1" ID="{939D13BF-578D-4781-B4BB-64743655FF51}" ShortID="307826592">
+									<Language>SFX</Language>
+									<AudioFile>Exports\Clock 1.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Clock 1" ID="{939D13BF-578D-4781-B4BB-64743655FF51}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Clock 2" ID="{06A2CD8C-37EC-464A-9729-31521CD37483}" ShortID="163280113" Type="SoundFX">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-180</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{39BE95C7-C813-4FCA-8A19-8F993430AC65}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{16DB408D-5A96-46FE-BBAD-2760C2F27BBD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Clock 2" ID="{BDBDB337-811A-4C2D-A304-ECE228A36D9B}" ShortID="574136429">
+									<Language>SFX</Language>
+									<AudioFile>Exports\Clock 2.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Clock 2" ID="{BDBDB337-811A-4C2D-A304-ECE228A36D9B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Clock 4" ID="{2F763B07-53E5-4948-A086-CA5C413ACF36}" ShortID="103027964" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{39BE95C7-C813-4FCA-8A19-8F993430AC65}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{16DB408D-5A96-46FE-BBAD-2760C2F27BBD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Clock 4" ID="{8A8F8B70-467F-4564-A461-37A9AE23641A}" ShortID="635451604">
+									<Language>SFX</Language>
+									<AudioFile>Exports\Clock 4.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Clock 4" ID="{8A8F8B70-467F-4564-A461-37A9AE23641A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Clock 3" ID="{CBC3EFE2-17D8-42E0-A54F-542DF1FC1DC4}" ShortID="1072663626" Type="SoundFX">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-180</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{39BE95C7-C813-4FCA-8A19-8F993430AC65}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{16DB408D-5A96-46FE-BBAD-2760C2F27BBD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Clock 3" ID="{9DECA6B3-3578-424C-B89F-757E323A7327}" ShortID="7785923">
+									<Language>SFX</Language>
+									<AudioFile>Exports\Clock 3.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Clock 3" ID="{9DECA6B3-3578-424C-B89F-757E323A7327}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Clock 5" ID="{4F2EDF85-1948-468E-BEC1-F9F59C40DEEE}" ShortID="129480718" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{39BE95C7-C813-4FCA-8A19-8F993430AC65}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{16DB408D-5A96-46FE-BBAD-2760C2F27BBD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Clock 5" ID="{85073CB0-89FB-4D7F-A55E-A8FB3CA64DDE}" ShortID="620321449">
+									<Language>SFX</Language>
+									<AudioFile>Exports\Clock 5.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Clock 5" ID="{85073CB0-89FB-4D7F-A55E-A8FB3CA64DDE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Clock 6" ID="{3F5FD97A-B2D7-437B-85A6-183857386E28}" ShortID="1040492885" Type="SoundFX">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-180</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{39BE95C7-C813-4FCA-8A19-8F993430AC65}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{16DB408D-5A96-46FE-BBAD-2760C2F27BBD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Clock 6" ID="{AF8C8A98-0757-453D-A145-1FB84A75426D}" ShortID="691536584">
+									<Language>SFX</Language>
+									<AudioFile>Exports\Clock 6.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Clock 6" ID="{AF8C8A98-0757-453D-A145-1FB84A75426D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Clock 7" ID="{5FEF01A9-90DD-4420-94AA-D1A5E72694C0}" ShortID="920692242" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{39BE95C7-C813-4FCA-8A19-8F993430AC65}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{16DB408D-5A96-46FE-BBAD-2760C2F27BBD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Clock 7" ID="{422B4908-5378-4771-AC2E-D4E59D27016D}" ShortID="501051486">
+									<Language>SFX</Language>
+									<AudioFile>Exports\Clock 7.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Clock 7" ID="{422B4908-5378-4771-AC2E-D4E59D27016D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Clock 8" ID="{C42B7417-974A-410E-B747-303A78AE3960}" ShortID="201213625" Type="SoundFX">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-180</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{39BE95C7-C813-4FCA-8A19-8F993430AC65}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{16DB408D-5A96-46FE-BBAD-2760C2F27BBD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Clock 8" ID="{70C32BD2-61A4-4629-A08A-146378ABDC86}" ShortID="726769538">
+									<Language>SFX</Language>
+									<AudioFile>Exports\Clock 8.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Clock 8" ID="{70C32BD2-61A4-4629-A08A-146378ABDC86}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Clock 9" ID="{424B780D-58E2-402C-9AEC-6039F488BF91}" ShortID="557454041" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{39BE95C7-C813-4FCA-8A19-8F993430AC65}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{16DB408D-5A96-46FE-BBAD-2760C2F27BBD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Clock 9" ID="{17AE78BA-AF89-4858-BBFF-CD0EF833F35A}" ShortID="648817242">
+									<Language>SFX</Language>
+									<AudioFile>Exports\Clock 9.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Clock 9" ID="{17AE78BA-AF89-4858-BBFF-CD0EF833F35A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<Playlist>
+						<ItemRef Name="Clock 1" ID="{FAF6A785-4C92-4CCE-A1D8-E3C0F29B76AC}"/>
+						<ItemRef Name="Clock 2" ID="{06A2CD8C-37EC-464A-9729-31521CD37483}"/>
+						<ItemRef Name="Clock 4" ID="{2F763B07-53E5-4948-A086-CA5C413ACF36}"/>
+						<ItemRef Name="Clock 3" ID="{CBC3EFE2-17D8-42E0-A54F-542DF1FC1DC4}"/>
+						<ItemRef Name="Clock 5" ID="{4F2EDF85-1948-468E-BEC1-F9F59C40DEEE}"/>
+						<ItemRef Name="Clock 6" ID="{3F5FD97A-B2D7-437B-85A6-183857386E28}"/>
+						<ItemRef Name="Clock 7" ID="{5FEF01A9-90DD-4420-94AA-D1A5E72694C0}"/>
+						<ItemRef Name="Clock 8" ID="{C42B7417-974A-410E-B747-303A78AE3960}"/>
+					</Playlist>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -1,0 +1,14 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3413660498	ClockWork			\Default Work Unit\ClockWork	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	7785923	Clock 3	Y:\Documents\UNITY\Training\Clock\Clock\Wwise\Clock\.cache\Mac\SFX\Exports\Clock 3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\ClocClic\Clock 3		30768
+	307826592	Clock 1	Y:\Documents\UNITY\Training\Clock\Clock\Wwise\Clock\.cache\Mac\SFX\Exports\Clock 1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\ClocClic\Clock 1		17424
+	501051486	Clock 7	Y:\Documents\UNITY\Training\Clock\Clock\Wwise\Clock\.cache\Mac\SFX\Exports\Clock 7_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\ClocClic\Clock 7		37508
+	574136429	Clock 2	Y:\Documents\UNITY\Training\Clock\Clock\Wwise\Clock\.cache\Mac\SFX\Exports\Clock 2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\ClocClic\Clock 2		20272
+	620321449	Clock 5	Y:\Documents\UNITY\Training\Clock\Clock\Wwise\Clock\.cache\Mac\SFX\Exports\Clock 5_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\ClocClic\Clock 5		57728
+	635451604	Clock 4	Y:\Documents\UNITY\Training\Clock\Clock\Wwise\Clock\.cache\Mac\SFX\Exports\Clock 4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\ClocClic\Clock 4		45784
+	648817242	Clock 9	Y:\Documents\UNITY\Training\Clock\Clock\Wwise\Clock\.cache\Mac\SFX\Exports\Clock 9_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\ClocClic\Clock 9		33404
+	691536584	Clock 6	Y:\Documents\UNITY\Training\Clock\Clock\Wwise\Clock\.cache\Mac\SFX\Exports\Clock 6_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\ClocClic\Clock 6		43460
+	726769538	Clock 8	Y:\Documents\UNITY\Training\Clock\Clock\Wwise\Clock\.cache\Mac\SFX\Exports\Clock 8_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\ClocClic\Clock 8		47620
+
